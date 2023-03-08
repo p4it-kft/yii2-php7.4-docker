@@ -1,1 +1,1 @@
-# yii2-php8.1-docker
+# yii2-php7.4-docker
