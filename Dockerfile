@@ -19,10 +19,5 @@ ENV LANGUAGE en_GB:en
 ENV LC_ALL en_GB.UTF-8  
 
 RUN apt install -y libnss3-tools
-ENV PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$PATH
 
-RUN git clone https://github.com/Homebrew/brew /home/linuxbrew/.linuxbrew/Homebrew \
-	&& mkdir /home/linuxbrew/.linuxbrew/bin \
-	&& ln -s ../Homebrew/bin/brew /home/linuxbrew/.linuxbrew/bin/ \
-	&& brew config
 
