@@ -26,5 +26,3 @@ RUN git clone https://github.com/Homebrew/brew /home/linuxbrew/.linuxbrew/Homebr
 	&& ln -s ../Homebrew/bin/brew /home/linuxbrew/.linuxbrew/bin/ \
 	&& brew config
 
-RUN brew install mkcert
-RUN brew install grpc
